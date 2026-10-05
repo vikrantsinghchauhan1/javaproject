@@ -6,6 +6,8 @@ public class Factorial {
     static void main(String[] args) {
        // 5!=5*4*3*2*1
        // Without recursion
+
+        //this using the recursion
       Scanner in = new Scanner(System.in);
         System.out.print("Enter the number which you want factorial : ");
       int fact=in.nextInt();
