@@ -9,6 +9,7 @@ public class Driver {
         System.out.println(us.mouseType);
         System.out.println(us.tableSize);
 
+        
         User user1 = new User("Dell", "Wireless", "Logitech", 10);
         User user2 = new User("HP", "Wired", "HP Keyboard", 12);
         User user3 = new User("Lenovo", "Wireless", "Lenovo Keyboard", 15);
@@ -30,6 +31,8 @@ public class Driver {
         user[7]=user7;
         user[8]=user8;
 
+
+        
         for (int i=1;i<8;i++){
             System.out.print(user[i].laptopName+" ");
             System.out.print(user[i].mouseType+ " ");
